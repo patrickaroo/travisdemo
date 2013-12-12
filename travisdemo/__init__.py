@@ -1,2 +1,6 @@
 def hello():
-    return 'hello, world!'
+    return 'hello, %s!' % get_recipient
+
+
+def get_recipient():
+    return 'TriLUG'
